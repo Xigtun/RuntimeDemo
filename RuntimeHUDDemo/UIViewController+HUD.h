@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
 
 @interface UIViewController (HUD)
+
+- (void)showHud;
+
+- (void)showHudWithMessage:(NSString *)message;
+
+- (void)showDeterminateHudWithMessage:(NSString *)message;
+
+- (void)changeHudProgress:(double)precent;
+
+- (void)hideHud;
+
+- (void)hideHudWithSuccessMessage:(NSString *)message;
+
+- (void)hideHudWithErrorMessage:(NSString *)message;
 
 @end

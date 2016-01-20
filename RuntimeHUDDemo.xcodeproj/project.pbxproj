@@ -15,6 +15,8 @@
 		37698D881C4E718000E9E176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37698D861C4E718000E9E176 /* LaunchScreen.storyboard */; };
 		37698D931C4E718100E9E176 /* RuntimeHUDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37698D921C4E718100E9E176 /* RuntimeHUDDemoTests.m */; };
 		37698D9E1C4E718100E9E176 /* RuntimeHUDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37698D9D1C4E718100E9E176 /* RuntimeHUDDemoUITests.m */; };
+		37698DAD1C4E71A900E9E176 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 37698DAC1C4E71A900E9E176 /* UIViewController+HUD.m */; };
+		37698DB41C4E71E600E9E176 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 37698DB11C4E71E600E9E176 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		37698D991C4E718100E9E176 /* RuntimeHUDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeHUDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37698D9D1C4E718100E9E176 /* RuntimeHUDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeHUDDemoUITests.m; sourceTree = "<group>"; };
 		37698D9F1C4E718100E9E176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37698DAB1C4E71A900E9E176 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		37698DAC1C4E71A900E9E176 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		37698DB01C4E71E600E9E176 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		37698DB11C4E71E600E9E176 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,13 @@
 		37698D771C4E718000E9E176 /* RuntimeHUDDemo */ = {
 			isa = PBXGroup;
 			children = (
+				37698DAE1C4E71E600E9E176 /* MBProgressHUD */,
 				37698D7B1C4E718000E9E176 /* AppDelegate.h */,
 				37698D7C1C4E718000E9E176 /* AppDelegate.m */,
 				37698D7E1C4E718000E9E176 /* ViewController.h */,
 				37698D7F1C4E718000E9E176 /* ViewController.m */,
+				37698DAB1C4E71A900E9E176 /* UIViewController+HUD.h */,
+				37698DAC1C4E71A900E9E176 /* UIViewController+HUD.m */,
 				37698D811C4E718000E9E176 /* Main.storyboard */,
 				37698D841C4E718000E9E176 /* Assets.xcassets */,
 				37698D861C4E718000E9E176 /* LaunchScreen.storyboard */,
@@ -138,6 +147,15 @@
 				37698D9F1C4E718100E9E176 /* Info.plist */,
 			);
 			path = RuntimeHUDDemoUITests;
+			sourceTree = "<group>";
+		};
+		37698DAE1C4E71E600E9E176 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				37698DB01C4E71E600E9E176 /* MBProgressHUD.h */,
+				37698DB11C4E71E600E9E176 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +290,8 @@
 			files = (
 				37698D801C4E718000E9E176 /* ViewController.m in Sources */,
 				37698D7D1C4E718000E9E176 /* AppDelegate.m in Sources */,
+				37698DB41C4E71E600E9E176 /* MBProgressHUD.m in Sources */,
+				37698DAD1C4E71A900E9E176 /* UIViewController+HUD.m in Sources */,
 				37698D7A1C4E718000E9E176 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
