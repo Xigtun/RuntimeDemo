@@ -97,12 +97,7 @@ const char *kHudKey = "ProgressHUD_Key";
 {
     MBProgressHUD *hud = objc_getAssociatedObject(self, kHudKey);
     if (!hud) {
-//        UIView *view = self.navigationController.view;
-//        hud = [[MBProgressHUD alloc] initWithView:view];
-//        hud.removeFromSuperViewOnHide = YES;
-//        [view addSubview:hud];
-//        self.progressHud = hud;
-        UIView *hudSuperView = self.navigationController.view;
+        UIView *hudSuperView = self.view;
         hud = [[MBProgressHUD alloc] initWithView:hudSuperView];
         hud.removeFromSuperViewOnHide = YES;
         [hudSuperView addSubview:hud];

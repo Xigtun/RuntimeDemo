@@ -225,6 +225,7 @@
 				TargetAttributes = {
 					37698D741C4E718000E9E176 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MAC54F746A;
 					};
 					37698D8D1C4E718100E9E176 = {
 						CreatedOnToolsVersion = 7.2;
@@ -433,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RuntimeHUDDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hudDemo.cysu1077.RuntimeHUDDemo;
@@ -444,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RuntimeHUDDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hudDemo.cysu1077.RuntimeHUDDemo;
@@ -518,6 +521,7 @@
 				37698DA41C4E718100E9E176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37698DA51C4E718100E9E176 /* Build configuration list for PBXNativeTarget "RuntimeHUDDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +530,7 @@
 				37698DA71C4E718100E9E176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37698DA81C4E718100E9E176 /* Build configuration list for PBXNativeTarget "RuntimeHUDDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +539,7 @@
 				37698DAA1C4E718100E9E176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
